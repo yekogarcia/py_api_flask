@@ -100,11 +100,12 @@ def index():
              "name": "String",
              "height": "Integer",
              "type": "json",
-             "method": "GET"
+             "method": "POST"
          },
          "get-prime-numbers":
          {
-             "type": "query string"
+             "type": "query string",
+             "method": "GET"
          }
          }
     }
